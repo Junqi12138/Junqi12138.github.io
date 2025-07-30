@@ -33,4 +33,4 @@ I am currently a Ph.D. candidate in Applied Mathematics at the [Western Universi
 
 I earned my B.Sc. with Honours in Applied Mathematics, complemented by a minor in Computer Science, from the University of Alberta in December 2021.
 
-My research focuses on dynamical systems and mathematical modeling, particularly in the context of infectious disease dynamics. I am interested in developing and analyzing models to better understand disease transmission and control.
+My research focuses on ``dynamical system`` and ``mathematical modeling``, particularly in the context of infectious disease dynamics. I am interested in developing and analyzing models to better understand disease transmission and control.
