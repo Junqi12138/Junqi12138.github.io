@@ -1,0 +1,210 @@
+{
+"basics": {
+    "name": "Junqi Liu",
+    "label": "Ph.D Candidate",
+    "email": "jliu2968@uwo.ca",
+    "url": "https://junqi12138.github.io",
+    "location": {
+      "address": "275A MC Western University",
+      "city": "London",
+      "countryCode": "CA"
+    }
+  },
+  "education": [
+    {
+      "institution": "Western University",
+      "location": "London, Canada",
+      "url": "https://www.math.uwo.ca/",
+      "area": "Applied Mathematics",
+      "studyType": "Ph.D.",
+      "startDate": "2022-09",
+      "endDate": "2027-08"
+    },
+    {
+      "institution": "University of Alberta",
+      "location": "Edmonton, Canada",
+      "url": "https://www.ualberta.ca/en/mathematical-and-statistical-sciences/index.html",
+      "area": "Honors in Applied Mathematics and Minor in Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2019-09",
+      "endDate": "2021-12"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Undergraduate Scholarship ($1500, University of Alberta)",
+      "date": "2021-09"
+    },
+    {
+      "title": "MSS Undergraduate Student Research Awards ($8500, University of Alberta)",
+      "date": "2021-05"
+    },
+    {
+      "title": "Dean's Honor Roll (University of Alberta)",
+      "date": "2020-2021"
+    },
+    {
+      "title": "Dean's Honor Roll (University of Alberta)",
+      "date": "2019-2020"
+    },
+    {
+      "title": "China Transfer Award ($1000, University of Alberta)",
+      "date": "2019-09"
+    },
+    {
+      "title": "Excellent Student (Shandong University)",
+      "date": "2019"
+    }
+  ],
+  "work": [
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - Help Centre",
+      "startDate": "2025-05",
+      "endDate": "2025-08"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - APPLMATH 1201",
+      "startDate": "2025-01",
+      "endDate": "2025-04"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - CALCULUS 1000",
+      "startDate": "2025-01",
+      "endDate": "2025-04"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - CALCULUS 1500",
+      "startDate": "2024-09",
+      "endDate": "2024-12"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - MATH 1228",
+      "startDate": "2024-09",
+      "endDate": "2024-12"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - CALCULUS 1000",
+      "startDate": "2024-01",
+      "endDate": "2024-08"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - CALCULUS 1000",
+      "startDate": "2023-09",
+      "endDate": "2023-12"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - APPLMATH 1201",
+      "startDate": "2023-01",
+      "endDate": "2023-04"
+    },
+    {
+      "name": "Mathematics Department, Western University",
+      "position": "Teaching Assistant - CALCULUS 1000",
+      "startDate": "2022-09",
+      "endDate": "2022-12"
+    },
+    {
+      "name": "Computer Science Department, University of Alberta",
+      "position": "Teaching Assistant - CMPUT204: Algorithms I",
+      "startDate": "2021-01",
+      "endDate": "2021-05"
+    },
+    {
+      "name": "Mathematics and Statistic Department, University of Alberta",
+      "position": "Teaching Assistant - MATH144: Calculus for Physical Science",
+      "startDate": "2021-09",
+      "endDate": "2021-12"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Women in Science Mentorship Program (Western University)",
+      "location": "London, Canada",
+      "startDate": "2022-09",
+      "endDate": "2023-04"
+    },
+    {
+      "organization": "Edmonton Organic Growers Guild",
+      "location": "Edmonton, Canada",
+      "startDate": "2021-05",
+      "endDate": "2021-08"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Program Languages",
+      "keywords": [
+        "Python",
+        "Matlab",
+        "Maple",
+        "GAP",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords":[
+        "Mandarin (Native Speaker)",
+        "English (Fluent)"
+      ]
+    }
+
+  ],
+  "interests": [
+    {
+      "name": "Dynamical Systems",
+      "keywords": [
+        "Mathematical Modelling"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Connect5 - Reproduce AlphaGo Zero",
+      "summary": "",
+      "startDate": "2023-01",
+      "endDate": "2023-04"
+    },
+    {
+      "name": "Solve 2x2 and 3x3 Rubric Cube by GAP",
+      "summary": "",
+      "startDate": "2022-09",
+      "endDate": "2022-12"
+    },
+    {
+      "name": "COVID Modelling",
+      "summary": "This research project focuses on personalized virus load curves for hospitalized COVID-19 patients from France and Hong Kong. In this research, I explored the efficiency of an existing viral load function.",
+      "supervisors": ["Dr.Thomas Hillen", "Dr. Carlos Contreras"],
+      "startDate": "2021-05",
+      "endDate": "2021-08"
+    },
+    {
+      "name": "COVID Decision Tree",
+      "summary": "This research project focuses on classifying COVID-19 patients in Alberta using gradient boosting decision trees. More specifically, I build a new mortality predicting tool for data of Alberta patients via Python and learnt the decision trees.",
+      "supervisors": ["Dr.Thomas Hillen", "Dr. Carlos Contreras"],
+      "startDate": "2021-01",
+      "endDate": "2021-04"
+    },
+    {
+      "name": "Dilemma of University Students",
+      "summary": "Build an optimization model that translates fraction of hours spent on study, relaxation, sleeping, and exercise into a mark for school. In this research, I built an optimization model and fitted for parameters estimations.",
+      "supervisors": ["Dr.Hao Wang"],
+      "startDate": "2021-01",
+      "endDate": "2021-04"
+    },
+    {
+      "name": "Connect5 ",
+      "summary": "",
+      "startDate": "2020-01",
+      "endDate": "2020-04"
+    }
+  ]
+}
