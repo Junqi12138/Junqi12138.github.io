@@ -476,6 +476,13 @@ ninja.data = [{
           window.open("mailto:%6A%6C%69%75%32%39%36%38@%75%77%6F.%63%61", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/Junqi Liu", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
