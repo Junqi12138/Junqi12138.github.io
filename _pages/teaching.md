@@ -5,65 +5,23 @@ title: Teaching
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 3
-display_categories: [Teaching Assistant, Instructor]
-horizontal: false
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Western University
 
-Organize your courses by years, topics, or universities, however you like!
+[Course Outline](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/course_outlines.html)
 
-<!-- pages/teaching.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+### Instructor
+  - ``MATH1228: Methods of Finite Mathematics``, Winter 2026
 
-{% else %}
+### Teaching Assistant
+  - [Help Centre](https://www.math.uwo.ca/undergraduate/current_students/Help%20Centre.html), Summer 2025
+  - ``CALCULUS 1000: Calculus I``, Winter 2025, Summer 2024, Winter 2024, Fall 2023, Fall 2022
+  - ``CALCULUS 1500: Calculus I for the Mathematical Sciences``, Fall 2024
+  - ``MATH 1228: Methods of Finite Mathematics``, Fall 2024
+  - ``APPLMATH 1201: Calculus & Probability with Biological Applications``, Winter 2023
 
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+## University of Alberta
+### Teaching Assistant
+  - [MATH144: Calculus for the Mathematical and Physical Sciences I](https://apps.ualberta.ca/catalogue/course/math/144), Fall 2021
+  - [CMPUT204: Algorithms I](https://apps.ualberta.ca/catalogue/course/cmput/204), Winter 2021
